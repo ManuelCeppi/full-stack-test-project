@@ -10,7 +10,7 @@ The frontend is a simple VueJS3 SPA + TailwindCSS, with Pinia as the state manag
 The backend is built with Laravel, that serves a pool of _RESTful Apis_, with simple CRUD, some public API integrations, several calls to AWS Lambdas and so on.
 
 ### Database
-For the database i choose postgres, despite the repository description, to actually try something different from MySql, and actually trying to understand why is postgres conquering the market so fastly (lol). 
+For the database i choose postgres, despite the repository description, to actually try something different from MySql, and actually trying to understand why is postgres conquering the market so fastly (lol). Database seeding is managed through DBMate. 
 
 ### Local Development (Docker + Docker compose)
 I've managed to create a local development context with docker and docker compose.
