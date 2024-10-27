@@ -19,8 +19,8 @@ CREATE TABLE cats (
     updated_at TIMESTAMP NOT NULL
 );
 
-INSERT INTO masters (name, uuid, created_at, updated_at) VALUES ('Manuel', '783c5862-3b41-4a94-9a44-0ea1b0d7fbd9', NOW(), NOW());
-INSERT INTO cats (name, uuid, color, master_id, created_at, updated_at) VALUES ('Coco', 'cfd4d2ea-263b-4d2c-b7f7-0ba6799749b5', 'Black & White', 1, NOW(), NOW());
+INSERT INTO masters (name, uuid, created_at, updated_at) VALUES ('Manuel', gen_random_uuid(), NOW(), NOW());
+INSERT INTO cats (name, uuid, color, master_id, created_at, updated_at) VALUES ('Coco', gen_random_uuid(), 'Black & White', 1, NOW(), NOW());
 
 -- migrate:down
 DROP TABLE cats;
