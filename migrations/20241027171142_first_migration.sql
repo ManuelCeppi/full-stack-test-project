@@ -23,6 +23,5 @@ INSERT INTO masters (name, uuid, created_at, updated_at) VALUES ('Manuel', '783c
 INSERT INTO cats (name, uuid, color, master_id, created_at, updated_at) VALUES ('Coco', 'cfd4d2ea-263b-4d2c-b7f7-0ba6799749b5', 'Black & White', 1, NOW(), NOW());
 
 -- migrate:down
-DROP DATABASE test_db;
 DROP TABLE cats;
 DROP TABLE masters;
