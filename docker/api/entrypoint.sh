@@ -13,6 +13,9 @@ chmod -R 775 /var/www/html/storage
 chmod -R 775 /var/www/html/bootstrap
 
 php artisan route:cache
+php artisan config:clear
+php artisan view:clear
 
 # start the apache server and keep it running as a foreground service
 apache2-foreground
+

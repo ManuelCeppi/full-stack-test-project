@@ -6,4 +6,4 @@ RUN chmod +x /usr/local/bin/install-php-extensions
 
 RUN apt-get update && apt-get install
 
-RUN install-php-extensions @composer mysqli pdo_mysql gd xdebug intl
+RUN install-php-extensions @composer mysqli pdo_mysql gd xdebug intl pgsql pdo_pgsql
