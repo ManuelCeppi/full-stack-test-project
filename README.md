@@ -1,6 +1,7 @@
 # Welcome to this marvellous test project!
 
 I've made this project for testing purposes, clean up the rust and improve in all the stacks.
+Feel free to fork or clone it, if you need a simple Full stack starting point for your next project!
 
 ### Frontend
 The frontend is a simple VueJS3 SPA + TailwindCSS, with Pinia as the state management library and Vite as the local development server.
